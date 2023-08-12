@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMDB MOVIE APP</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     
+     <header>
+        <div>
+            <h1 class="header">IMDB MOVIE APP</h1>
+        </div>
+    </header>
+ 
+    <section>
+        <div class="search-cont">
+            <div class="search-bars">
+                
+                <input id="api" type="text"  placeholder="Enter Your API Key Here">
+                <img src="./Vector.png" alt="">
+            </div>
+            <div class="search-bars">
+               
+                <input id="movie" type="text" placeholder="Enter Movie Name Here">
+                <img src="./Search.png" alt="">
+            </div>
+            <button id="search-btn">Search</button>
+        </div>
+    </section>
+   
+    <main>
+        <div class="loader">
+            <div class="buffer hide">
+            </div>
+        </div>
+
+        <div id="movie-container">
+           
+        </div>
+
+        <div class="error">
+            
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
